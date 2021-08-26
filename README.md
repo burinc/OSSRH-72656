@@ -4,6 +4,8 @@ Git project for verification with SonarType
 
 - [Setup guide from Juxt](https://www.juxt.pro/blog/maven-central)
 - [ticket for verification with SonarType](https://issues.sonatype.org/browse/OSSRH-72656)
+- [Publish Guide/deployment](https://central.sonatype.org/publish/publish-guide/#deployment)
+- [Publish Guide/release](https://central.sonatype.org/publish/release/)
 - [list of open issues](https://issues.sonatype.org/projects/OSSRH/issues/OSSRH-72199?filter=allopenissues)
 - [Use github as coordinates](https://central.sonatype.org/publish/requirements/coordinates/)
 - [Use your custom domain](https://central.sonatype.org/faq/how-to-set-txt-record/)
@@ -26,6 +28,7 @@ https://central.sonatype.org/publish/publish-guide/#deployment
 
 Depending on your build configuration, your first component(s) might be released automatically after a successful deployment.
 If that happens, you will see a comment on this ticket confirming that your artifact has synced to Maven Central.
+
 If you do not see this comment within an hour or two, you can follow the steps in this section of our guide:
 https://central.sonatype.org/publish/release/
 
