@@ -1,16 +1,19 @@
-# OSSRH-72656
+# OSSRH-72656 - Publish to SonaType
 
-Git project for verification with SonarType
+## Links
 
 - [Setup guide from Juxt](https://www.juxt.pro/blog/maven-central)
-- [ticket for verification with SonarType](https://issues.sonatype.org/browse/OSSRH-72656)
+- [Setup GPG](https://central.sonatype.org/publish/requirements/gpg/)
+- [ticket for verification with SonaType](https://issues.sonatype.org/browse/OSSRH-72656)
 - [Publish Guide/deployment](https://central.sonatype.org/publish/publish-guide/#deployment)
 - [Publish Guide/release](https://central.sonatype.org/publish/release/)
-- [list of open issues](https://issues.sonatype.org/projects/OSSRH/issues/OSSRH-72199?filter=allopenissues)
+- [SonaType Lift](https://links.sonatype.com/products/lift/github-integration)
+- [List of open issues](https://issues.sonatype.org/projects/OSSRH/issues/OSSRH-72199?filter=allopenissues)
 - [Use github as coordinates](https://central.sonatype.org/publish/requirements/coordinates/)
 - [Use your custom domain](https://central.sonatype.org/faq/how-to-set-txt-record/)
  - [namecheap.com](https://www.namecheap.com/support/knowledgebase/article.aspx/317/2237/how-do-i-add-txtspfdkimdmarc-records-for-my-domain/)
  - Check TXT record
+
  ```sh
  #
  host -t txt yourdomain.com
@@ -18,7 +21,7 @@ Git project for verification with SonarType
  dig -t txt yourdomain.com
  ```
 
- ## Misc outputs
+## Misc outputs
 
 ```
 io.github.burinc has been prepared, now user(s) b12n can:
